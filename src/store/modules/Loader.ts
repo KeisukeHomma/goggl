@@ -18,7 +18,7 @@ import store from '@/store';
 })
 class Loader extends VuexModule implements ILoaderState {
   public loadingState: ILoadingState = {
-    timer: true,
+    timer: false,
     reports: true,
     loadingBar: false,
   };
